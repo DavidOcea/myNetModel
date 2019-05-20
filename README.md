@@ -1,5 +1,5 @@
 ## introduce
-a PyTorch implementation of neural network that i may use in my work
+a PyTorch implementation of neural network that may be used in my work
 ## contain
 * model
 * train.py
