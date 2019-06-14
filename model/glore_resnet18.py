@@ -1,4 +1,3 @@
-from __future__ import division
 
 """
  * 
@@ -16,6 +15,8 @@ from __future__ import division
  *   (((__) (__)))    高山仰止,景行行止.虽不能至,心向往之。
  */ author:ydc  date:20190530
 """
+from __future__ import division
+
 import math
 import torch.nn as nn
 import torch.nn.functional as F
