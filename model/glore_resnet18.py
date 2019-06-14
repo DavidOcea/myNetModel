@@ -195,7 +195,7 @@ class ResNet(nn.Module):
 
         self.layers = [self._make_layer(block, baseWidth, layers[0])]
         for idx, layer in enumerate(layers[1:]):
-            if idx == 1:
+            if idx == 1:       #position of glore
                 self.glore = glore
 
             self.layers.append(self._make_layer(block, baseWidth * pow(2, idx + 1), layer, 2, self.glore))
