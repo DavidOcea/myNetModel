@@ -512,9 +512,3 @@ def efficientnet_b3(**kwargs):
 
     return model
 
-sets1 = (0.5, 0.5, 112, 0.5)
-net = efficientnet_b0_9(num_classes = 11,drop_out=0.5,sets=sets1)
-print(net)
-
-
-
